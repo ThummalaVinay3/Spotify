@@ -101,10 +101,7 @@ SELECT
 	highest_energy - lowest_energery as energy_diff
 FROM cte
 ORDER BY 2 DESC
-```
-   
-5. Find tracks where the energy-to-liveness ratio is greater than 1.2.
-6. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
+``
 
 
 Here’s an updated section for your **Spotify Advanced SQL Project and Query Optimization** README, focusing on the query optimization task you performed. You can include the specific screenshots and graphs as described.
@@ -157,7 +154,7 @@ This optimization shows how indexing can drastically reduce query time, improvin
 2. Set up the database schema and tables using the provided normalization structure.
 3. Insert the sample data into the respective tables.
 4. Execute SQL queries to solve the listed problems.
-5. Explore query optimization techniques for large datasets.
+5. Explore query optimization techniques for large datasets
 
 ---
 
